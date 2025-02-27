@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1>Hello, I'm <span class="highlight">Chooky!!</span></h1>
+                <p class="subtitle">Web Developer & Designer</p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn primary-btn">View My Work</a>
+                    <a href="#contact" class="btn secondary-btn">Contact Me</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <!-- Replace with your own image -->
+                <div class="profile-image-container">
+                    <img src="Chooky.png" alt="Your Profile Picture" class="profile-image">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>Hey! My name is chooky and i just love coding!!</p>
+                    
+                    <div class="skills">
+                        <h3>My Skills</h3>
+                        <div class="skill-tags">
+                            <span class="skill-tag">HTML</span>
+                            <span class="skill-tag">CSS</span>
+                            <span class="skill-tag">JavaScript</span>
+                            <span class="skill-tag">Python</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">My Projects</h2>
+            <p class="section-description">Here are some of my recent works</p>
+            
+            <div class="projects-grid">
+                <!-- PROJECT 1 - Copy this block to add more projects -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="bot.png" alt="Project 1">
+                    </div>
+                    <div class="project-info">
+                        <h3 class="project-title">Telegram bot</h3>
+                        <p class="project-description">I made a telegram bot that sends you images using e621 and rule34 api</p>
+                        <div class="project-tags">
+                            <span class="project-tag">Python</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://web.telegram.org/k/#@chookycookiebot" target="_blank" project-link"><i class="fas fa-external-link-alt"></i> Try here!</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- END PROJECT 1 -->
+
+                <!-- PROJECT 2 -->
+
+                <!-- END PROJECT 2 -->
+
+                <!-- Add more projects by copying the project-card structure -->
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fa-brands fa-telegram"></i>
+                        <p>Telegram: chookycookie</p>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fa-brands fa-discord"></i>
+                        <p>Discord: cookiejeje</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; <span id="current-year">2025</span> Chookycookie. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        // Update current year in footer
+        document.getElementById('current-year').textContent = new Date().getFullYear();
+    </script>
+</body>
+</html>
